@@ -44,8 +44,9 @@ env/
 *.ipynb_checkpoints
 
 # === Data Files (large, should not be in git) ===
-files/
-data/
+# Папка с EDF файлами (в корне проекта)
+/files/
+# НЕ исключаем src/data/ - там исходный код!
 *.edf
 *.EDF
 
